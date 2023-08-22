@@ -3,7 +3,7 @@ import MeetupList from '@/components/meetups/MeetupList';
 const DUMMY_MEETUPS = [
   {
     id: 'm1',
-    title: 'a frist meet',
+    title: 'a first meet',
     image:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Prague_from_Powder_Tower_01.jpg/2560px-Prague_from_Powder_Tower_01.jpg',
     address: '서울특별시',
@@ -20,11 +20,7 @@ const DUMMY_MEETUPS = [
 ];
 
 const HomePage = () => {
-  return (
-    <>
-      <MeetupList meetups={DUMMY_MEETUPS} />
-    </>
-  );
+  return <MeetupList meetups={DUMMY_MEETUPS} />;
 };
 
 export default HomePage;
